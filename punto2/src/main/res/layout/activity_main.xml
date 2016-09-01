@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+
+    tools:context="com.example.camilomartinez.punto2.MainActivity">
+
+    <EditText
+        android:id="@+id/eNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero1"
+        android:layout_weight="0.10"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/eNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero2"
+        android:layout_weight="0.10"
+        android:inputType="number"/>
+
+    <RadioGroup
+        android:id="@+id/eGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/eSuma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suma"
+            android:layout_weight="0.25"
+            />
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/eResta"
+            android:text="@string/resta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            />
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/eMultiplicacion"
+            android:text="@string/multiplicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            />
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/eDivision"
+            android:text="@string/division"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/eResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:background="@color/lavender"
+        android:gravity="center"/>
+</LinearLayout>

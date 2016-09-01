@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Punto4</string>
+    <string name="loggin">Loggin</string>
+    <string name="password">Password</string>
+    <string name="confirmpass">Comfirm Password</string>
+    <string name="email">Email</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="set">Set</string>
+
+    <string name="basketball">Basketball</string>
+    <string name="football">Football</string>
+    <string name="volleyball">Volleyball</string>
+    <string name="cycling">Cycling</string>
+    <string name="aceptar">Accept</string>
+    <string name="datos">Datos</string>
+
+</resources>

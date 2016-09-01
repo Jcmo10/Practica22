@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Punto3</string>
+    <string name="base">Base</string>
+    <string name="altura">Altura</string>
+    <string name="radio">Radio</string>
+    <string name="lado">Lado</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="triangulo">triangulo</string>
+    <string name="rectangulo">Rectangulo</string>
+    <string name="circulo">Circulo</string>
+    <string name="aceptar">Accept</string>
+</resources>
